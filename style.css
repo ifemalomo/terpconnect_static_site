@@ -1,0 +1,42 @@
+:root {
+  --bg-color: rgb(138, 210, 246);
+}
+
+body {
+    
+    background-color: var(--bg-color);
+}
+
+.background {
+    position: absolute;
+    left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 30%;
+}
+.content {
+    position: relative;
+    left: 25%;
+
+}
+
+
+table,
+th,
+td {
+    padding: 5px;
+    border-style: solid;
+    border-color:rgb(39, 91, 93);
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: hsla(0, 72%, 47%, 0.404);
+}
+
+tr:nth-child(even) {
+  background-color: hsla(59, 60%, 81%, 0.404);
+}
+
